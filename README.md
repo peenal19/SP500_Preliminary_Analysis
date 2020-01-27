@@ -45,5 +45,3 @@ To analyze the most volatile stocks of 2017, I followed below listed steps
 - Extract name and variance value
 - Calculate volatility by SQRT(Sum(variance)/n)
 - Extract top 10 volatile stocks
-
-## Conclusion
