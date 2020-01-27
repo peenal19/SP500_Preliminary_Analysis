@@ -28,9 +28,22 @@ To analyze the best and worst performing stocks of 2017, I followed below listed
 
 ## Best performing days of last five years (2013-2018)
 
-
-
+To analyze the best performing days of last five years, I followed below listed steps
+- Extract data by year for all five years
+- Calculate daily returns for all stock from year 2013 to year 2018
+- Calculate average of daily returns across all stocks seperately for each year
+- Get the final result of top 5 days with highest returns
 
 ## Most volatile stocks of 2017
+
+To analyze the most volatile stocks of 2017, I followed below listed steps
+- Filter the whole dataset for 2017 stocks data
+- Group the filtered dataset by stock names
+- Calculate average closing price of each stock
+- Merge result of average closing price with the actual data
+- Calculate variance by (Price(daily) - Price(Mean))^2
+- Extract name and variance value
+- Calculate volatility by SQRT(Sum(variance)/n)
+- Extract top 10 volatile stocks
 
 ## Conclusion
